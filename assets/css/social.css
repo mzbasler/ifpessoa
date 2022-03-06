@@ -1,0 +1,10 @@
+.m-social {
+  color: black;
+  font-size: 22px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.m-social:hover {
+  color: var(--verde-btn);
+}

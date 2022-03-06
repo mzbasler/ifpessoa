@@ -1,0 +1,160 @@
+/* HERO
+-------------------------------------------------- */
+
+#row-hero {
+  margin-top: var(--height-nav);
+  padding: 0;
+}
+
+#col-hero-1 {
+  height: calc(
+    var(--height-hero) - var(--height-nav)
+  ); /* ajustar para tela grande */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* titulo-hero-1 */
+#titulo-1-hero-1 {
+  font-family: var(--font-2);
+  font-size: 20px;
+  font-weight: 200;
+}
+/* subtitulo-hero-1 */
+#titulo-2-hero-1 {
+  font-family: var(--font-1);
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 200;
+}
+
+#btn-hero-1 {
+  margin-bottom: 10px;
+}
+
+.wrapper-btn-hero-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.m-social {
+  font-size: 22px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.m-social:hover {
+  color: var(--verde-btn);
+}
+
+/* ----------- END HERO 1 ----------- */
+
+/* ----------- HERO 2 ----------- */
+
+#col-hero-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  #col-hero-2 {
+    display: none;
+  }
+}
+
+#wrapper-hero-2 {
+  font-family: var(--font-1);
+  padding: 30px;
+  width: 100%;
+}
+
+#wrapper-midias-sociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+#formulario-contato {
+  flex-direction: column;
+  align-items: center;
+}
+
+#formulario-contato h2 {
+  text-align: center;
+  font-family: var(--font-1);
+}
+#formulario-contato label {
+  font-size: 15px;
+  font-family: var(--font-2);
+  padding-left: 10px;
+  margin: 0;
+}
+#formulario-contato input {
+  font-family: var(--font-2);
+}
+#wrapper-btn-hero-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* ----------- END HERO 2 ----------- */
+
+/* ---------- RESPONSIVIDADE ---------- */
+
+@media screen and (min-width: 576px) {
+  #btn-hero-1 {
+    margin: 0 10px 0 0;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #btn-hero-2 {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #titulo-1-hero-1 {
+    text-align: start;
+    font-size: 25px;
+  }
+
+  #titulo-2-hero-1 {
+    text-align: start;
+  }
+
+  #x-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #wrapper-hero-2 {
+    font-family: var(--font-1);
+    padding: 10px 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper-btn-hero-1 {
+    flex-direction: column;
+  }
+}
+
+/* END-HERO
+-------------------------------------------------- */

@@ -1,0 +1,35 @@
+.btn-verde {
+  font-family: var(--font-2);
+  font-size: 20px;
+  padding: 6px 30px;
+  background-color: var(--verde-btn);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid var(--verde-btn);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-verde:hover {
+  background-color: var(--verde-secundario);
+  color: white;
+}
+
+.btn-verde-borda {
+  font-family: var(--font-2);
+  font-size: 20px;
+  padding: 6px 30px;
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid var(--verde-btn);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-verde-borda:hover {
+  background-color: var(--verde-btn);
+  color: white;
+  border: 1px solid var(--verde-btn);
+  text-decoration: none;
+}

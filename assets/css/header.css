@@ -1,0 +1,27 @@
+/* NAVBAR
+-------------------------------------------------- */
+#header.header-scrolled {
+  top: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  height: var(--height-nav);
+  margin: 0px;
+  padding: 0px;
+}
+/* logo-navbar */
+.logo {
+  width: 148px;
+}
+#navbar-menubtn {
+  border: 0px;
+}
+#navbar-menubtn:focus {
+  box-shadow: none;
+}
+#navbar-fecharbtn:focus {
+  box-shadow: none;
+}
+/* END-NAVBAR
+-------------------------------------------------- */
