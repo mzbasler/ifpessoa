@@ -1,0 +1,217 @@
+#cards {
+  padding-top: var(--height-nav);
+}
+
+#cards a {
+  text-decoration: none;
+}
+
+#titulo-cards {
+  padding: 20px;
+  text-align: center;
+}
+
+/* -------------------------------------------------------- */
+/* BOX IFP */
+.box-ifp {
+  height: 70vh;
+
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.box-ifp:hover {
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+#img-box-ifp {
+  background-image: url('../img/ifp.jpg');
+  background-size: cover;
+}
+
+#txt-area-ifp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+
+  background-color: #b2cdb5;
+  color: #005a42;
+}
+
+#txt-area-ifp h2 {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 280px) {
+  #txt-area-ifp h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+  #txt-area-ifp p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* BOX CLINICA ENSINO */
+
+.box-clinica-ensino {
+  height: 100vh;
+}
+
+@media screen and (min-width: 992px) {
+  .box-clinica-ensino {
+    height: 70vh;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* BOX CLINICA */
+
+#box-clinica {
+  height: 50%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#box-clinica:hover {
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+@media screen and (min-width: 992px) {
+  #box-clinica {
+    flex-direction: row-reverse;
+    height: 50%;
+  }
+}
+
+#img-box-clinica {
+  background-image: url('../img/clinica.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50%;
+}
+
+@media screen and (min-width: 992px) {
+  #img-box-clinica {
+    height: 100%;
+  }
+}
+
+#txt-area-clinica {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 15px;
+
+  background-color: #b2cdb5;
+  color: #005a42;
+  height: 50%;
+}
+
+#txt-area-clinica h2 {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 280px) {
+  #txt-area-clinica h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  #txt-area-clinica p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #txt-area-clinica {
+    height: 100%;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* BOX ENSINO */
+
+#box-ensino {
+  height: 50%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#box-ensino:hover {
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+@media screen and (min-width: 992px) {
+  #box-ensino {
+    height: 50%;
+  }
+}
+
+#img-box-ensino {
+  background-image: url('../img/ensino.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50%;
+}
+
+@media screen and (min-width: 992px) {
+  #img-box-ensino {
+    height: 100%;
+  }
+}
+
+#txt-area-ensino {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 15px;
+
+  background-color: #b2cdb5;
+  color: #005a42;
+  height: 50%;
+}
+
+#txt-area-ensino h2 {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 280px) {
+  #txt-area-ensino h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  #txt-area-ensino p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #txt-area-ensino {
+    height: 100%;
+  }
+}
+
+/* 
+@media screen and (min-width: 576px) {
+  
+}
+ */

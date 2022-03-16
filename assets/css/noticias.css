@@ -1,0 +1,19 @@
+#titulo-noticias {
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo-post {
+  text-decoration: underline;
+  text-decoration-color: #4fc143;
+}
+
+.sub-titulo-post {
+  font-size: 18px;
+}
+
+.data-post {
+  font-size: 12px;
+  padding: 10px;
+  margin: 0;
+}
