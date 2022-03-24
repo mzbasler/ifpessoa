@@ -7,6 +7,7 @@
 @import url(box.css);
 @import url(noticias.css);
 @import url(marcador.css);
+@import url(texto.css);
 
 :root {
   /* Variáveis */
