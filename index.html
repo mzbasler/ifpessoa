@@ -169,49 +169,52 @@
               <!-- wrapper-hero-2 -->
               <div id="wrapper-hero-2" class="bg-light border">
                 <!-- formulário-contato -->
-                <div id="formulario-contato">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="text-center">
-                        <i class="far fa-envelope my-1" style="font-size: 30px;"></i>
-                        <h3 class="mb-3">Fale conosco</h3>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="row g-2">
-                        <div class="col-12">
-                          <div class="form-floating">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Nome</label>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-floating">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Telefone</label>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-floating">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">E-mail</label>
-                          </div>
-                        </div>
-                        <div class="col-12">
-                          <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Insira sua mensagem.</label>
-                          </div>
+                <form action="assets/php/email.php" method="POST">
+                  <div id="formulario-contato">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="text-center">
+                          <i class="far fa-envelope my-1" style="font-size: 30px;"></i>
+                          <h3 class="mb-3">Fale conosco</h3>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-12">
-                      <div  id="wrapper-btn-hero-2" class="d-flex my-3">
-                        <a href="" class="btn-verde">Enviar</a>
+                      <div class="col-12">
+                        <div class="row g-2">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input type="text" name="name" class="form-control" id="floatingInput" placeholder="Insira seu nome">
+                              <label for="floatingInput">Nome</label>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-floating">
+                              <input type="tel" name="tel" class="form-control" id="floatingInput" placeholder="Insira seu telefone.">
+                              <label for="floatingInput">Telefone</label>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-floating">
+                              <input type="text" name="email" class="form-control" id="floatingInput" placeholder="Insira seu email">
+                              <label for="floatingInput">E-mail</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <textarea class="form-control" name="message" placeholder="Insira sua mensagem" id="floatingTextarea2" style="height: 100px"></textarea>
+                              <label for="floatingTextarea2">Mensagem</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div  id="wrapper-btn-hero-2" class="d-flex my-3">
+                          
+                          <input type="submit" value="Enviar" class="btn-verde">
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </form>
               </div>
               <!-- end-wrapper-hero-2 -->
             </div>
