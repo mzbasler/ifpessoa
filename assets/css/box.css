@@ -1,3 +1,11 @@
+/* -------------------------------------------------------- */
+/* Variáveis */
+:root{
+  --bg-color-cards: #eeeeee;
+}
+
+
+/* -------------------------------------------------------- */
 #cards {
   padding-top: var(--height-nav);
 }
@@ -15,7 +23,7 @@
 /* BOX IFP */
 .box-ifp {
   height: 70vh;
-
+  border-radius: 10px 10px 0 0;
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -28,17 +36,19 @@
 }
 
 #img-box-ifp {
+  border-radius: 10px 10px 0 0;
   background-image: url('../img/ifp.jpg');
   background-size: cover;
 }
 
 #txt-area-ifp {
+  border-radius: 0 0 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 15px;
 
-  background-color: #b2cdb5;
+  background-color: var(--bg-color-cards);
   color: #005a42;
 }
 
@@ -95,6 +105,7 @@
 }
 
 #img-box-clinica {
+  border-radius: 0 10px 10px 0;
   background-image: url('../img/clinica.jpg');
   background-size: cover;
   background-position: center;
@@ -108,13 +119,14 @@
 }
 
 #txt-area-clinica {
+  border-radius: 10px 0 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   padding: 15px;
 
-  background-color: #b2cdb5;
+  background-color: var(--bg-color-cards);
   color: #005a42;
   height: 50%;
 }
@@ -145,6 +157,7 @@
 /* BOX ENSINO */
 
 #box-ensino {
+
   height: 50%;
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -164,6 +177,7 @@
 }
 
 #img-box-ensino {
+  border-radius: 10px 0 0 10px;
   background-image: url('../img/ensino.jpg');
   background-size: cover;
   background-position: center;
@@ -180,10 +194,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  border-radius: 0 10px 10px 0;
   padding: 15px;
 
-  background-color: #b2cdb5;
+  background-color: var(--bg-color-cards);
   color: #005a42;
   height: 50%;
 }
