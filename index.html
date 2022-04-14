@@ -34,7 +34,7 @@
       <nav class="navbar fixed-top navbar-light bg-light shadow-sm ">
         <div class="container">
           <div class="d-flex flex-row align-items-center"> 
-            <a href="index.html"><img src="assets/img/logo.svg" class="logo" alt="imagem logomarca"/></a>
+            <a href="index.html"><img src="assets/img/logo/logo.svg" class="logo" alt="imagem logomarca"/></a>
           </div>
           <button
             id="navbar-menubtn"
@@ -57,7 +57,7 @@
           >
             <div class="offcanvas-header">
               <img
-                src="assets/img/logo.svg"
+                src="assets/img/logo/logo.svg"
                 class="img-responsive logo"
                 id="offcanvasNavbarLabel"
                 alt="imagem logomarca"
@@ -153,8 +153,8 @@
               </div>
               <div id="x-wrapper">
                 <div class="wrapper-btn-hero-1">
-                  <a id="btn-hero-1" href="agendar.html" class="btn-verde">Agendar</a>
-                  <a id="btn2-hero-1" href="#cards" class="btn-verde-borda">Sobre</a>
+                  <a id="btn-hero-1" href="#cards" class="btn-verde">Sobre</a>
+                  <a id="btn2-hero-1" href="agendar.html" class="btn-verde-borda">Agendar</a>
                 </div>
                 <div id="wrapper-midias-sociais"> 
                   <a href="https://www.facebook.com/institutofernandopessoa"><i class="fab fa-facebook-f m-social"></i></a>
@@ -167,7 +167,7 @@
             <!-- col-hero-2 -->
             <div id="col-hero-2" class="col-md-6 col-lg-5">
               <!-- wrapper-hero-2 -->
-                <img src="assets/img/colmeia-hero.png" class="img-fluid" alt="">
+                <img src="assets/img/colmeia-hero2.png" class="img-fluid" alt="">
             </div>
             <!-- end-col-hero-2 -->
           </div>
@@ -175,34 +175,42 @@
         </div><!-- container-hero -->
         <!-- end-hero -->
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <h5 class="card-title">Encontre um Psicólogo</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <!-- atalhos -->
+        <div class="row mb-4">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <img src="assets/img/ico/psi-ico.png" class="img-fluid mb-2" style="height: 30px;" alt="">
+                  <h5 class="card-title">Funcionamento</h5>
+                  <p class="card-text">Segunda à Sexta <br> 08:00 am - 21:00 pm</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <h5 class="card-title">Contato</h5>
-                <p class="card-text">Rua Mariante, 356 - Moinhos de Vento<br>(51) 3346-6588 / (51) 3222-8305</p>
-                <p class="card-text"></p>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <img src="assets/img/ico/fone-icon.png" class="img-fluid mb-2" style="height: 30px;" alt="">
+                  <h5 class="card-title">Contato</h5>
+                  <p class="card-text">Rua Mariante, 356 - Moinhos de Vento<br>(51) 3346-6588 / (51) 3222-8305</p>
+                  <p class="card-text"></p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <h5 class="card-title">Informações COVID-19</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <img src="assets/img/ico/covid-icon.png" class="img-fluid mb-2" style="height: 30px; color: green;" alt="">
+                  <h5 class="card-title">Informações COVID-19</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- fim atalhos -->
 
+    
         <!-- cards -->
         <div id="cards" class="container">
 
@@ -210,22 +218,21 @@
 
           <div class="row">
             
-              <!-- box-ifp -->
-              
-                <div class="col-lg-6 box-ifp pe-md-4 pb-2 pb-md-0">
-                  <a href="instituto.html">
-                    <!-- img -->
-                    <div id="img-box-ifp" class="row h-50">
-                    </div>
-                    <!-- texto -->
-                    <div id="txt-area-ifp" class="row h-50">
-                      <p>Instituto Fernando Pessoa</p>
-                      <h2>
-                        Há 30 anos oferencedo a comunidade, familia e escolas, acesso facilitado aos recursos oferecidos pelo tratamento psicoterápico.
-                      </h2>
-                    </div>
-                  </a>
+            <!-- box-ifp -->
+            <div class="col-lg-6 box-ifp pe-md-4 pb-2 pb-md-0">
+              <a href="instituto.html">
+                <!-- img -->
+                <div id="img-box-ifp" class="row h-50">
                 </div>
+                <!-- texto -->
+                <div id="txt-area-ifp" class="row h-50">
+                  <h2>Instituto Fernando Pessoa</h2>
+                  <p>
+                    Há 30 anos oferencedo a comunidade, familia e escolas, acesso facilitado aos recursos oferecidos pelo tratamento psicoterápico.
+                  </p>
+                </div>
+              </a>
+            </div>
               
 
 
@@ -240,8 +247,8 @@
                   </div>
                   <!-- texto -->
                   <div id="txt-area-clinica" class="col-lg-6">
-                    <p>Clínica de Psicoterapia</p>
-                    <h2>Psicoterapia Individual, de Casal e de Família.</h2>
+                    <h2>Psicoterapia</h2>
+                    <p>Psicoterapia Individual, de Casal e de Família.</p>
                   </div>
                 </div>
               </a>
@@ -254,8 +261,8 @@
                   </div>
                   <!-- texto -->
                   <div id="txt-area-ensino" class="col-lg-6">
-                    <p>Ensino</p>
-                    <h2>Curso de Formação em Psicologia Clínica</h2>
+                    <h2>Formação em<br>Psicologia Clínica</h2>
+                    <p>Ênfase na integração de técnicas Psicoterapicas.</p>
                   </div>
                 </div>
               </a>
@@ -329,21 +336,22 @@
       <section id="onde-estamos">
         <div id="container-maps" class="container" data-aos="fade-up">
           <header class="section-header">
-            <h3 class="my-4 pt-4 text-center">Contato</h3>
+            <h3 class="mt-5 mb-4 py-4 text-center"></h3>
           </header>
     
-          <div class="row mb-0 mb-md-5">
-            <div class="col-6">
+          <div class="row mb-0 mb-md-4">
+            <div class="col-md-6">
               <iframe  style="border-radius: 10px;" width=100% height=300px frameborder=0px src="https://maps.google.com/maps?q=Instituto%20Fernando%20Pessoa&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
             </div>
-            <div class="col-6">
-              <h3>Instituto Fernando Pessoa</h3>
-              <p>Rua Mariante, 356 / 360 / 370 - Moinhos de Vento / Rio Branco</p>
-              <p>(51) 3346-6588 / (51) 3222-8305 / (51) 99969-6459</p>
-              <p>Segunda à Sexta: 08:00 am - 21:00 pm</p>
-              <p>ifpessoa@terra.com.br</p>
-
-              <a id="btn-hero-1" href="agendar.html" class="btn-verde">Agende uma sessão</a>
+            <div class="col-md-6 ps-md-5">
+              <h4>Instituto Fernando Pessoa</h4>
+              <br>
+              <p><img src="assets/img/ico/local-ico.png" style="height: 20px; padding-right: 5px;" alt=""> Rua Mariante, 356 - Rio Branco / Porto Alegre.</p>
+              <p><img src="assets/img/ico/fone-icon.png" style="height: 20px; padding-right: 5px;" alt=""> (51) 3346-6588 / (51) 3222-8305
+              <p><img src="assets/img/ico/horario-ico.png" style="height: 20px; padding-right: 5px;" alt=""> Segunda à Sexta: 08:00 am - 21:00 pm</p>
+              <p><img src="assets/img/ico/arroba-ico.png" style="height: 20px; padding-right: 5px;" alt=""> ifpessoa@terra.com.br</p>
+              <br>
+              <a id="btn-hero-1" href="agendar.html" class="btn-verde">Agendar consulta</a>
             </div>
                     
           </div>
@@ -360,37 +368,11 @@
         <div class="container">
           <div class="row text-center">
             <div class="col-lg-3 col-md-6 footer-contact">
-              <a href="index.html"><img src="assets/img/logo.svg" class="logo pb-4" alt="imagem logomarca"/></a>
-              <p style="font-family: var(--font-2);">
-                Rua Mariante, 356<br>
-                Moinhos de Vento / Rio Branco<br>
-                (51) 3346-6588 / (51) 3222-8305<br>
-              </p>
+              <a href="index.html"><img src="assets/img/logo/logo.svg" class="logo pb-4" alt="imagem logomarca"/></a>
+              
             </div>
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Menu</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Início</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Fernando Pessoa</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">O Instituto</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Psicoterapia</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Psicoterapia</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Psicoterapia individual</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Psicoterapia de casal</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Psicoterapia de família</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Assine nossa Newsletter!</h4>
-              <p>Insira seu e-mail e assine nossa <span>Newsletter.</span></p>
-              <form action="" method="post">
-                <input type="email" name="email"><input type="submit" value="Assine">
-              </form>
-            </div>
+            
+            
           </div>
         </div>      
       </div>
